@@ -42,7 +42,7 @@
 		        if(count($k) === 2){
 			        $comma_separated = implode(",", $k);
 			        $str = str_replace(',', ' ', $comma_separated);
-			        $name_two_words[]=$str;
+			        $name_two_words[] = $str;
 		        }
 	        }  
             }
@@ -76,7 +76,7 @@
         //Результат "фантазий"			
         $final_result = []; 
             for($i = 0; $i < count($name_two_words); $i++){
-                $final_result[]= $random_first_word[$i] . ' ' . $random_second_word[$i];  
+                $final_result[] = $random_first_word[$i] . ' ' . $random_second_word[$i];  
             }
 			
         //Дополнительное задание	
