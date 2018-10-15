@@ -140,7 +140,7 @@
         <?php echo '<p>' . implode(",<br>", $final_result) . '</p>'; ?>
       <hr>
     </ol>
-	<div>
+    <div>
     <h2>Дополнительное задание</h2> 
       <?php
           echo "<h3>{$key }</h3>";
@@ -151,6 +151,6 @@
               var_dump($animalsContinent);
           echo '</pre>';	
       ?>
-	</div> 
+    </div> 
   </body>
 </html>
