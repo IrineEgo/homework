@@ -60,7 +60,7 @@
         array_push($final_result, $random_first_word[$i] . ' ' . $random_second_word[$i]);
         }
 		
-	//Дополнительное задание	
+    //Дополнительное задание	
     $animalsContinent = [];	
         foreach ($final_result as $elem) {
             $words1 = explode(' ', $elem);
